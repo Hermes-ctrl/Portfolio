@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a simple paragraph describing my first HTML page.</p>
-
-    <img src="icon.png" alt="Sample Image">
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <div class="header-bar"></div>
+    </header>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Aryan Limbu</strong>. I am currently studying <strong>Cybersecurity</strong> at Herald College Kathmandu since 2024.</p>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+    <p>I am currently working on a web development project as part of my learning journey. 
+    The project aims to improve my skills in HTML, CSS, and cybersecurity awareness. 
+    It is still in progress, but I am focused on making it better step by step.</p>
+</section>
+    <section id="contact">
+        <div class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 
 </body>
 </html>
